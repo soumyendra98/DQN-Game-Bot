@@ -71,20 +71,6 @@ We employed a blend of Python, RL, and DQN in our implementation. The project wa
   
 - Iterative Testing: Continuous testing and refinement of the bot's strategies.
   
-## Code Snippets
-
-```
-# Example of the action function
-def get_action(state, eps):
-    # Epsilon-greedy strategy for action selection
-    if random.uniform(0, 1) > eps:
-        return self.network.predict(state=state)
-    else:
-        return random.randint(0, output_shape - 1)
-```
-
-This snippet showcases our implementation of the epsilon-greedy strategy in the bot's decision-making process.
-
 ## Results and Contributions
 
 - Bot Proficiency: Achieved a high level of gameplay proficiency in Dota 2.
