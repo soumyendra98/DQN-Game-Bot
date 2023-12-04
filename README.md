@@ -1,6 +1,7 @@
 # Reinforcement Learning Driven Dota 2 Bot Development
 
-Dota 2 Logo <!-- Replace with an actual link to Dota 2 logo -->
+![image](https://github.com/soumyendra98/DQN-Game-Bot/assets/47080427/e68cdb96-b5f5-418c-aead-1506608cc885)
+
 
 ## Team Members:
 - Soumyendra Shrivastava (016670121)
