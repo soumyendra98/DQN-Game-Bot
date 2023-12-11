@@ -30,6 +30,38 @@ Current methodologies primarily involve RL and DQN for training bots to navigate
 
 To create a Dota 2 bot that exemplifies high-level strategic play and decision-making using DQN.
 
+## Diagrams
+A. Architecture Diagram
+
+- The architecture of Dota 2 bot with key components and their interactions:
+  
+  - Agent: Central component representing the reinforcement learning agent.
+    
+  - Neural Network: A Deep Q-Network (DQN) & Policy Gradient network used for training and action prediction.
+    
+  - Action Space: Defines the possible actions the agent can take in the Dota 2 environment.
+    
+  - Environment: The Dota 2 game environment that interacts with the agent.
+    
+  - Replay Buffer: Stores experiences for training the neural network.
+
+    <img width="675" alt="Screen Shot 2023-12-10 at 8 43 59 PM" src="https://github.com/soumyendra98/DQN-Game-Bot/assets/47080427/fda40e22-2749-404c-a556-0f9b9ce886b4">
+    
+
+B. RL Process: 
+
+- This diagram illustrates the core reinforcement learning loop in your Dota 2 bot project, including interactions between the agent, environment, and learning components.
+
+  <img width="725" alt="Screen Shot 2023-12-10 at 8 44 07 PM" src="https://github.com/soumyendra98/DQN-Game-Bot/assets/47080427/9295971b-dcb2-42db-b2a8-615ef173e316">
+
+
+C. Action-Selection Flow: 
+
+- This diagram outlines how actions are selected based on the policy network's output and the action space.
+
+<img width="691" alt="Screen Shot 2023-12-10 at 8 44 17 PM" src="https://github.com/soumyendra98/DQN-Game-Bot/assets/47080427/ba44e608-91a5-4b35-ab09-524cd677abe9">
+
+
 ## Scope 📈
 
 ### In Scope
